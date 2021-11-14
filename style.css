@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  margin: 100px auto;
+  width: 15%;
+  text-align: center;
+  background: rgb(10, 146, 170);
+  border-radius: 30px;
+}
+h1 {
+  color: rgb(0, 57, 119);
+}
+#header p {
+  margin: 30px 0;
+  font-size: 0.9rem;
+}
+span {
+  width: 120px;
+}
+
+#result {
+  font-size: 1.5rem;
+  color: brown;
+}
+@media screen and (max-width: 900px) {
+  #container {
+    width: 60%;
+  }
+  span {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #container {
+    width: 90%;
+  }
+}
